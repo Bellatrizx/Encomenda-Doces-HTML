@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    
+    <head>
+        
+        <header>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <h1>Pães Doces e Bolos</h1> 
+    
+        <ul>
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="index2.html">Encomendar Bolo</a></li>
+        </ul>
+        </header>
+    
+    </head>
+
+    <body>
+        
+        <main>
+
+    <h2>Encomendar Bolo</h2>
+    
+    <form action="#" method="get">
+        Nome: <input type="text" autofocus name="nome" placeholder="Informe o nome" maxlength="35">
+        DDD: <input type="text" name="ddd" maxlength="2" placeholder="DDD" size="2">
+        Telefone: <input type="text" name="telefone" placeholder="Telefone" maxlength="10">
+    </form>
+      
+    <br><div style="text-align: center;">Bolos</div>      
+      <table border="1">
+        
+        <tr>
+            <td><img src="imagens/Bolo01.png" width="200" alt="Bolo de Chocolate"></td>
+            <td><img src="imagens/Bolo02.png" width="200" alt="Bolo de Frutas"></td>
+            <td class="destacado"><img src="imagens/Bolo03.png" width="200" alt="Bolo Misto"></td>
+        </tr>
+
+        <tr> 
+            <td>Chocolate</td> 
+            <td>Frutas</td>
+            <td>Misto</td>
+        </tr>
+           
+      </table>
+
+    <form action="#" method="get">
+
+        <br>Sabor:<br>
+        <select name="sabor">
+          <option value="" disabled selected>Escolha...</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="frutas">Frutas</option>
+          <option value="misto">Misto</option>
+        </select><br>
+      
+        <br>Tipo:<br>
+        <input type="radio" name="tipo" value="Simples" checked> Simples
+        <input type="radio" name="tipo" value="Decorado"> Decorado<br>
+      
+        <br>Tamanho:
+        <input type="number" name="tamanho" min="1" max="10"> kg
+        <input type="radio" name="Diet?" value="Diet" checke
+        > Diet?<br>
+
+        <br>Observações:<br>
+        <textarea name="observacoes" rows="3" cols="80" placeholder="Digite suas observações aqui"></textarea><br>
+      
+        <br><input type="submit" value="Enviar Pedido">
+        <input type="reset" value="Limpar">
+    </form>
+
+        </main>
+    </body>
